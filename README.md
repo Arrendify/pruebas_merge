@@ -1,26 +1,17 @@
-# [Django Dashboard](http://appseed.us/admin-dashboards/django) - Volt Bootstrap 5 PRO
+# [Arrendify APP](https://arrendify.app/)
 
-**Django Dashboard** coded with basic modules, database, ORM and deployment scripts on top of **[Volt Dashboard PRO](https://docs.appseed.us/bootstrap-template/volt-dashboard-pro/)** (premium version), a modern Bootstrap dashboard design. Volt Pro is a premium Bootstrap 5 Admin Dashboard featuring over 800 components, 20 example pages and 10 fully customized plugin written in Vanilla Javascript. 
+**Arrendify APP** coded with basic modules and custom modules in django rest framework and posgreSQL in front we have a modern Bootstrap dashboard design. Volt Pro is a premium Bootstrap 5 Admin Dashboard featuring over 800 components, 20 example pages and 10 fully customized plugin written in Vanilla Javascript. 
 
 <br />
 
 > Features
 
-- Up-to-date [dependencies](./requirements.txt): **Django 3.2.6 LTS**
-- UI Kit: **Volt Dashboard PRO** by **Themesberg**
-- UI-Ready app, SQLite Database, Django Native ORM
+- Manage about Inquilinos, arrendadores, inmubles and fiadores
+- custom Modules about real estate sector.
+- UI-Ready app, PosgreSQL Database, Django Native ORM and Django Rest Framework
 - Modular design, best practices codebase
 - Session-Based Authentication, Forms validation
 - Deployment scripts: Docker, Gunicorn/Nginx
-- Support via Github (issues tracker) and [Discord](https://discord.gg/fZC6hup) - 24/7 LIVE Service.
-
-<br />
-
-> Links
-
-- [Django Volt PRO](https://appseed.us/admin-dashboards/django-dashboard-volt-pro) - product page
-- [Django Volt PRO](https://django-volt-pro.appseed-srv1.com/) - LIVE deployment
-- [Django Volt PRO](https://docs.appseed.us/products/django-dashboards/volt-pro) - product documentation
 
 <br />
 
