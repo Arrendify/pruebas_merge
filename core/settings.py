@@ -161,6 +161,7 @@ USE_L10N = True
 USE_TZ = True
 
 ALLOWED_HOSTS = ['*']
+saul_ok = "todo ok para fusionar"
 
 #############################################################
 # SRC: https://devcenter.heroku.com/articles/django-assets
