@@ -17,14 +17,10 @@
 
 ## **[Volt Dashboard PRO](https://docs.appseed.us/bootstrap-template/volt-dashboard-pro/)**
 
-Volt Pro is a premium Bootstrap 5 Admin Dashboard featuring over 800 components, 20 example pages and 10 fully customized plugin written in Vanilla Javascript.
+**About the proyect**
 
-**800+ Components, 20 Example Pages** - There are more than 800 premium Bootstrap 5 components included with the admin dashboard, some of which are buttons, forms, alerts, datepickers, range sliders and many more. Volt Pro comes with 20 example pages including the overview page, messages, user settings, transactions, calendar, sign in, sign up, and many more pages.
 
-**10 Lightweight Plugins** - There are at least 10 lightweight Vanilla JS plugin libraries that we have customized and expanded in terms of features that you can use for your application. Some of these are a calendar, SVG maps, datepickers, notifications, drag and drop file uploads and many more.
 
-- [Product Page](https://themesberg.com/product/admin-dashboard/volt-premium-bootstrap-5-dashboard) - hosted by [Themesberg](https://appseed.us/agency/themesberg)
-- [Product Docs - Quick Start](https://themesberg.com/docs/volt-bootstrap-5-dashboard/getting-started/quick-start/) - official product documentation
 
 <br />
 
@@ -36,31 +32,32 @@ Volt Pro is a premium Bootstrap 5 Admin Dashboard featuring over 800 components,
 
 ```bash
 $ # Get the code
-$ git clone https://github.com/app-generator/priv-django-dashboard-volt-pro.git
-$ cd priv-django-dashboard-volt-pro
+$ git clone https://github.com/Arrendify/pruebas_merge
+$ cd pruebas_merge
 $
 $ # Virtualenv modules installation (Unix based systems)
 $ virtualenv env
 $ source env/bin/activate
 $
 $ # Virtualenv modules installation (Windows based systems)
-$ # virtualenv env
-$ # .\env\Scripts\activate
+$ python -m venv venv
+$ venv\Scripts\activate
 $
 $ # Install modules - SQLite Storage
-$ pip3 install -r requirements.txt
+$ pip install -r requirements.txt
 $
 $ # Create tables
 $ python manage.py makemigrations
 $ python manage.py migrate
 $
 $ # Start the application (development mode)
-$ python manage.py runserver # default port 8000
-$
-$ # Start the app - custom port
-$ # python manage.py runserver 0.0.0.0:<your_port>
-$
+$ python manage.py runserver # default port 8000 for local use
 $ # Access the web app in browser: http://127.0.0.1:8000/
+$
+$ # Start the app for local network use
+$ python manage.py runserver 0.0.0.0:8000
+$
+$ # Access the web app in browser: http://<you pc ip>:8000/
 ```
 
 > Note: To use the app, please access the registration page and create a new user. After authentication, the app will unlock the private pages.
@@ -253,4 +250,4 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 <br />
 
 ---
-[Django Dashboard Volt PRO](https://appseed.us/admin-dashboards/django-dashboard-volt-pro) - Provided by **AppSeed** [App Generator](https://appseed.us/app-generator).
+[ArrendyAPP](https://arrendify.app/) - Provided by **ArrendyTeam**.
