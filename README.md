@@ -24,7 +24,7 @@
 
 <br />
 
-![Django Dashboard Volt PRO - Template project provided by AppSeed.](https://raw.githubusercontent.com/app-generator/django-dashboard-volt-pro/main/media/django-dashboard-volt-pro-intro.gif)
+![Arrendify App.](https://arrendifystorage.s3.us-east-2.amazonaws.com/Recursos/candado.gif)
 
 <br />
 
